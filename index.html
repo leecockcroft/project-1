@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400&family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+
+
+
+  <nav>
+<div class="mobile-nav">
+  <ul>
+  <li>  Collections</li>
+    <li>   Men</li>
+  <li>     Women</li>
+  <li>     About</li>
+    <li>   Contact</li>
+  </ul>
+
+</div>
+
+<div class="cart-active">
+<h2>Cart</h2>
+<div class="cart-wrapper">
+  <img src="./images/image-product-1-thumbnail.jpg" alt="">
+  <p>Fall Limited Edition Sneakers $125 x <span id="addToCart"></span>
+    <button type="button" name="button" class='submitcta'> Checkout</button>
+</div>
+</div>
+
+
+  <div class="left-side-nav">
+    <img class="nav-burger" src="./images/icon-menu.svg" alt="">
+    <img class="nav-logo" src="./images/logo.svg" alt="">
+    <div class="desktop-nav">
+      <ul>
+      <li>  Collections</li>
+        <li>   Men</li>
+      <li>     Women</li>
+      <li>     About</li>
+        <li>   Contact</li>
+      </ul>
+
+
+  </div>
+</div>
+
+
+<div class="right-side-nav">
+<img class="nav-cart" src="./images/icon-cart.svg" alt="">
+<img class="nav-avatar" src="./images/image-avatar.png" alt="">
+</div>
+</div>
+  </nav>
+
+
+
+
+
+<main>
+
+  <div class="main-image">
+    <div class="main-img-wrapper">
+          <img src="./images/image-product-1.jpg" alt="">
+          <img src="./images/image-product-2.jpg" alt="">
+          <img src="./images/image-product-3.jpg" alt="">
+          <img class="" src="./images/image-product-4.jpg" alt="">
+    </div>
+
+    <img class="arrow arrow-left" src="./images/icon-previous.svg" alt="" >
+    <img class="arrow arrow-right" src="./images/icon-next.svg" alt=" ">
+
+  </div>
+  <div class="main-text">
+    <div class="container">
+
+
+    <h2 class="main-header">Sneaker Company</h2>
+
+  <h3 class="main-subheader">  Fall Limited Edition Sneakers</h3>
+
+    <p class="main-text">These low-profile sneakers are your perfect casual wear companion. Featuring a
+    durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+<div class="price-wrapper">
+
+
+    <span class="big125">$125.00</span>
+  <span class="fiftypercent">  50%</span>
+  <span class="twofiftystrikethrough">  $250.00</span>
+</div>
+
+<section class="inputvalues">
+
+
+<div class="addToCart-wrapper">
+  <button  class="minus changeNumber" type="button" name="button">  <img class="minus" src="./images/icon-minus.svg" alt=""></button>
+
+  <span id="shoppingValue">0</span>
+<button type="button" name="button" class="plus changeNumber" > <img src="./images/icon-plus.svg" alt=""></button>
+
+</div>
+<button class="submitcta" type="button" name="button"> Add to cart</button>
+  </div>
+  </section>
+
+    </div>
+
+
+  </main>
+
+
+
+<script type="text/javascript" src="script.js">
+
+</script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  </div>
+</body>
+</html>
