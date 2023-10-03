@@ -288,7 +288,7 @@ font-weight: 400;
 line-height: 2.6rem; /* 173.333% */
 }
 main{
-  gap: 1rem;
+    gap: 12.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
     padding: 0 2.4rem;
@@ -299,6 +299,10 @@ main{
   border-radius: 15px;
   overflow: hidden;
 
+}
+
+.main-text .container{
+  padding:0;
 }
 
 .main-subheader{
@@ -312,6 +316,7 @@ line-height: 4.8rem; /* 109.091% */
 .main-text{
 
   font-size: 1.6rem;
+  width: 44.5rem;
 
   line-height: 2.6rem; /* 162.5% */
 }
