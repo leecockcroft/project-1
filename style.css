@@ -248,7 +248,7 @@ position:relative;
 }
 
 .container{
-  padding:0;
+    padding: 0 16.5rem;
 }
 .nav-burger{
   display:none;
@@ -295,10 +295,9 @@ main{
 }
 
 .main-image{
-  width: 44.5rem;
-      height: 44.5rem;
-border-radius: 15px;
-    overflow: hidden;
+  margin-left: 18.7rem;
+  border-radius: 15px;
+  overflow: hidden;
 
 }
 
