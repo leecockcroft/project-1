@@ -27,6 +27,7 @@
 
   <nav>
 <div class="mobile-nav">
+  <img class='close'src="./images/icon-close.svg" alt="">
   <ul>
   <li>  Collections</li>
     <li>   Men</li>
@@ -41,8 +42,9 @@
 <h2>Cart</h2>
 <div class="cart-wrapper">
   <img src="./images/image-product-1-thumbnail.jpg" alt="">
-  <p>Fall Limited Edition Sneakers $125 x <span id="addToCart"></span>
-    <button type="button" name="button" class='submitcta'> Checkout</button>
+  <p>Fall Limited Edition Sneakers<br/> $125 x <span id="addToCart"></span></p>
+      <button type="button" name="button" class='submitcta'> Checkout</button>
+
 </div>
 </div>
 
@@ -84,6 +86,12 @@
           <img src="./images/image-product-3.jpg" alt="">
           <img class="" src="./images/image-product-4.jpg" alt="">
     </div>
+    <div class="small-thumb-wrapper">
+      <img  class="thumb" src="./images/image-product-1-thumbnail.jpg" alt="">
+      <img class="thumb" src="./images/image-product-2-thumbnail.jpg" alt="">
+      <img class="thumb" src="./images/image-product-3-thumbnail.jpg" alt="">
+      <img class="thumb" src="./images/image-product-4-thumbnail.jpg" alt="">
+    </div>
 
     <img class="arrow arrow-left" src="./images/icon-previous.svg" alt="" >
     <img class="arrow arrow-right" src="./images/icon-next.svg" alt=" ">
@@ -117,7 +125,7 @@
 <button type="button" name="button" class="plus changeNumber" > <img src="./images/icon-plus.svg" alt=""></button>
 
 </div>
-<button class="submitcta" type="button" name="button"> Add to cart</button>
+<button class="submitcta" id="addItemToCart" type="button" name="button"> Add to cart</button>
   </div>
   </section>
 
